@@ -2,18 +2,26 @@
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
+        //_MainTex ("Texture", 2D) = "white" {}
+		// _Color("Always visible color", Color) = (0,0,0,0)
+		_MainTex ("Texture", 2D) = "white" {}
+		_TintColor("Tint Color", Color) = (1,1,1,1)
+		_Transparency("Transparency", Range(0.0, 0.5)) = 0.25
 		_Color("Always visible color", Color) = (0,0,0,0)
     }
     SubShader
     {
-        Tags { "Queue"="Transparent" }
+        Tags { "Queue"="Transparent" "RenderType"="Transparent"}
+		Cull Front
+		ZWrite On
+		ZTest Always
+		Blend SrcAlpha OneMinusSrcAlpha
         LOD 100
 		Pass
 		{
-			Cull Front
-			ZWrite On
-			ZTest Always
+			// Cull Front
+			// ZWrite On
+			// ZTest Always
 
 			CGPROGRAM
 			#pragma vertex vert
@@ -68,6 +76,8 @@
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+			float4 _TintColor;
+			float _Transaparency;
 
             v2f vert (appdata v)
             {
@@ -81,7 +91,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 col = tex2D(_MainTex, i.uv) * _TintColor;
                 return col;
             }
             ENDCG
