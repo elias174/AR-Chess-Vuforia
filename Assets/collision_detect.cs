@@ -9,10 +9,12 @@ public class collision_detect : MonoBehaviour
     public int greencol;
     public int bluecol;
     public bool is_selected = false;
+    public Color32 original_color;
     // Start is called before the first frame update
     void Start()
     {
         bishop = GameObject.Find("Bishop");
+        original_color = bishop.GetComponent<Renderer>().material.GetColor("_Color");
     }
 
     // Update is called once per frame
@@ -37,7 +39,7 @@ public class collision_detect : MonoBehaviour
     {
         Debug.Log("Finished collision");
         is_selected = false;
-        bishop.GetComponent<Renderer>().material.color = new Color32((byte)255, (byte)255, (byte)255, 255);
+        bishop.GetComponent<Renderer>().material.color = original_color;
     }
 
     void OnTriggerEnter(Collider other)
