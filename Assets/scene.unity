@@ -120,6 +120,34 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &64814884
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'marker-color2Material
+
+    13786'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 57a1468d8880427bb360452c52b9df3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &518423071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 0260a05ef2c2a496f852aa0422dce267,
@@ -400,8 +428,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986897191}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 138.3, y: 0, z: -786.9}
-  m_LocalScale: {x: 217.96, y: 217.96, z: 217.96}
+  m_LocalPosition: {x: 143.75, y: 0, z: -786.9}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 2092846766}
   - {fileID: 1222012198}
@@ -434,7 +462,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2116402030}
+  - {fileID: 1249114932}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -491,14 +519,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: 1b5c0b728360f9347f9d1018d05a9b3c
+  mTrackableName: board2-2
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/test_ar_demo.xml
-  mAspectRatio: 1.3333334
+  mDataSetPath: Vuforia/markers1.xml
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 163.47
-  mHeight: 217.96
+  mWidth: 30
+  mHeight: 30
 --- !u!1001 &988354876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -609,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846723839890726, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.032
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 4846723839890726, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_LocalRotation.x
@@ -645,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846723839890726, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_LocalScale.x
-      value: 11.516619
+      value: 15.115562
       objectReference: {fileID: 0}
     - target: {fileID: 4846723839890726, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_LocalScale.y
@@ -683,6 +711,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1222012197}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1249114932
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'board2-2Material
+
+    13746'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 187d5b88331749f6bcc15c6dd6124891, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1431613512
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,34 +830,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!21 &1507575723
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'pieceMaterial
-
-    20416'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a87f8defdced45cbab63902bcf3229d9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1698619321
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +856,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698619321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.034}
+  m_LocalPosition: {x: -0.089, y: 0, z: -0.034}
   m_LocalScale: {x: 0.7089, y: 0.29306763, z: -0.80454206}
   m_Children: []
   m_Father: {fileID: 1713706988}
@@ -928,7 +956,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1507575723}
+  - {fileID: 64814884}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -985,14 +1013,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: piece
+  mTrackableName: marker-color2
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/test_ar_demo.xml
+  mDataSetPath: Vuforia/markers1.xml
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 50.513184
-  mHeight: 50.513184
+  mWidth: 6
+  mHeight: 6
 --- !u!4 &1713706988
 Transform:
   m_ObjectHideFlags: 0
@@ -1001,8 +1029,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713706982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 138, y: 0, z: -768.9}
-  m_LocalScale: {x: 50.513184, y: 50.513184, z: 50.513184}
+  m_LocalPosition: {x: 141.25, y: 1.18, z: -781.5}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children:
   - {fileID: 1698619322}
   m_Father: {fileID: 922764298}
@@ -1036,14 +1064,14 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 0.75, z: 1}
-  m_Center: {x: 0, y: 0.8, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!43 &1827341748
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh20406
+  m_Name: ImageTargetMesh13404
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1206,7 +1234,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh20364
+  m_Name: ImageTargetMesh13368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1218,7 +1246,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.375, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1297,7 +1325,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 0000c0be00000000000000bf000000000000803f0000000000000000000000000000c0be000000000000003f000000000000803f00000000000000000000803f0000c03e00000000000000bf000000000000803f000000000000803f000000000000c03e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1390,11 +1418,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0260a05ef2c2a496f852aa0422dce267, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0622
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0260a05ef2c2a496f852aa0422dce267, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.097
+      value: 0.085
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0260a05ef2c2a496f852aa0422dce267, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1460,31 +1488,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2092846765}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &2116402030
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: '1b5c0b728360f9347f9d1018d05a9b3cMaterial
-
-    20376'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7a52d6a909eb41e588c5111148daac4d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}

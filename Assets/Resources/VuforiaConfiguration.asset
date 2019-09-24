@@ -54,8 +54,8 @@ MonoBehaviour:
     matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     arcoreRequirement: 1
     trackingMode: 1
     posePrediction: 0

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="marker-color2" size="6.000000 6.000000" />
+    <ImageTarget name="board2-2" size="30.000000 30.000000" />
+    <ImageTarget name="marker-color" size="1024.000000 1024.000000" />
+    <ImageTarget name="board2" size="1024.000000 1024.000000" />
+    <ImageTarget name="board" size="682.000000 682.000000" />
+    <ImageTarget name="mark2" size="1024.000000 1024.000000" />
+    <ImageTarget name="mark1" size="1024.000000 1024.000000" />
+    <ImageTarget name="horsee" size="292.000000 219.000000" />
+    <ImageTarget name="tower" size="134.000000 136.000000" />
+    <ImageTarget name="horse" size="134.000000 136.000000" />
+  </Tracking>
+</QCARConfig>
