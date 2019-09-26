@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="auQc22221212" size="11.000000 7.700000" />
+    <ImageTarget name="auQc2" size="6.000000 4.200000" />
+    <ImageTarget name="marker_1" size="6.000000 6.000000" />
     <ImageTarget name="marker-color2" size="6.000000 6.000000" />
     <ImageTarget name="board2-2" size="30.000000 30.000000" />
     <ImageTarget name="marker-color" size="1024.000000 1024.000000" />

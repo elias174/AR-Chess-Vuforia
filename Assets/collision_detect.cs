@@ -28,7 +28,7 @@ public class collision_detect : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "piece")
+        if (collision.gameObject.name == "cube")
         {
             Debug.Log("Collision detected");
             is_selected = true;
@@ -44,7 +44,7 @@ public class collision_detect : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "piece")
+        if (other.gameObject.name == "cube")
         {
             Debug.Log("Trigger eventtt");
         }
