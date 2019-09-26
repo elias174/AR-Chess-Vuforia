@@ -13,11 +13,11 @@ public class collision_detect : MonoBehaviour
     public int greencol;
     public int bluecol;
     public float y_piece;
-    public string name_object;
     public bool is_selected = false;
     public bool position_target_selected = false;
     float timerSec = 0;
     public Color32 original_color;
+    public string name_object;
     // Start is called before the first frame update
     void Start()
     {
