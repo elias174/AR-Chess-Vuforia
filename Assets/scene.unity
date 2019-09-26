@@ -138,7 +138,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.35}
   m_Shapes:
     vertices: []
     shapes: []
@@ -217,7 +217,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000003333b3be000000000000803f000000000000000000000000000000bf000000003333b33e000000000000803f00000000000000000000803f0000003f000000003333b3be000000000000803f000000000000803f000000000000003f000000003333b33e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -661,8 +661,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.02
-  far clip plane: 100000
+  near clip plane: 0.75
+  far clip plane: 1000
   field of view: 26.991467
   orthographic: 0
   orthographic size: 5
@@ -1128,8 +1128,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698619321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.089, y: 0, z: -0.034}
-  m_LocalScale: {x: 0.7089, y: 0.29306763, z: -0.80454206}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.31180122, y: 0.3, z: 0.28666764}
   m_Children: []
   m_Father: {fileID: 1713706988}
   m_RootOrder: 0
@@ -1312,14 +1312,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: marker-color2
+  mTrackableName: auQc22221212
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/markers1.xml
-  mAspectRatio: 1
+  mAspectRatio: 0.7
   mImageTargetType: 0
-  mWidth: 6
-  mHeight: 6
+  mWidth: 11
+  mHeight: 7.7
 --- !u!4 &1713706988
 Transform:
   m_ObjectHideFlags: 0
@@ -1328,8 +1328,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713706982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 141.25, y: 1.18, z: -781.5}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalPosition: {x: 146.89, y: 1.18, z: -782.74}
+  m_LocalScale: {x: 11, y: 11, z: 11}
   m_Children:
   - {fileID: 1698619322}
   m_Father: {fileID: 922764298}
@@ -1342,7 +1342,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'marker-color2Material
+  m_Name: 'auQc22221212Material
 
     13256'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1357,7 +1357,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 57a1468d8880427bb360452c52b9df3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 75a753e297124c619809bb9322bf84ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1482,7 +1482,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 187d5b88331749f6bcc15c6dd6124891, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ee6184f90bc42baae66e0b5f563a5a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
