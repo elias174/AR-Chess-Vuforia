@@ -19,4 +19,4 @@ In order to reproduce the same feeling and dynamics when we are playing the conv
 
 
 ## Video Demo
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/open?id=11ONxoNjXnNed2UxPB0Auj59r2mlTX_fS)
+[![Watch the video](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1noSotWwti9_RqlVg8_ughPQYkq1UsLFnSURmpAOw-ICVjo5MA)](https://drive.google.com/open?id=11ONxoNjXnNed2UxPB0Auj59r2mlTX_fS)
